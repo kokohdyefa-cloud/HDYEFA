@@ -3,9 +3,48 @@
 <head>
 <meta charset="UTF-8">
 <title>بحثي الشخصي</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+    }
+    h1 {
+        color: #333;
+    }
+    p {
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: #555;
+    }
+    .pdf-button {
+        padding: 15px 30px;
+        font-size: 18px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+    .pdf-button:hover {
+        background-color: #0056b3;
+    }
+</style>
 </head>
 <body>
-<h1>مرحبًا بكم</h1>
-<p><a href="my_research.pdf" target="_blank">اضغط هنا لفتح البحث</a></p>
+
+<h1>مرحبًا بكم في موقعي</h1>
+<p>اضغطي على الزر لفتح البحث PDF مباشرة:</p>
+
+<!-- غيّري اسم الملف هنا ليتطابق تمامًا مع اسم PDF في الريبو -->
+<a href="My_Research.pdf" target="_blank" class="pdf-button">فتح البحث PDF</a>
+
 </body>
 </html>
